@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Multi browser test" parallel="tests">
+	<test name="firefox test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.webdriver.MultiBrowser" />
+		</classes>
+	</test>
+	<test name="chrome test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.webdriver.MultiBrowser" />
+		</classes>
+	</test>
+</suite>
